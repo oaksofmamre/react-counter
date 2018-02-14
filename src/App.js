@@ -26,7 +26,7 @@ class CounterContainer extends React.Component {
   }
 
   onDecrement() {
-    this.setState(prevState => ({ counter: prevState.counter + 1 }));
+    this.setState(prevState => ({ counter: prevState.counter - 1 }));
   }
 
   render() {
